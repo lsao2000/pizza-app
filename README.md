@@ -1,2 +1,1 @@
-<<<<<<< HEAD
 # Pizza-App
