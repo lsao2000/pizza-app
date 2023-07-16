@@ -11,7 +11,6 @@ function Home() {
                 style={{background:`url(${img1})`}} 
                 className="headerContainer"
             >
-                
                 <h1>Lahcen Pizzeria</h1>
                 <p>PIZZA TO FIT ANY TASTE</p>
                 <Link to='/pages/Menu'>

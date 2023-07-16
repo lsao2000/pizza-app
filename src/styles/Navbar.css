@@ -67,6 +67,7 @@ display: none;
 width: 70px;
 margin: 5px;
 }
+
 @media only screen and (min-width: 901px) {
     .navbar #show .hiddenLinks {
         display: none;
@@ -99,12 +100,15 @@ margin: 5px;
 }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 .navbar .rightSide button {
     display: none;
 }
 
-.hiddenLinks {
+.navbar #show .hiddenLinks {
     display: none;
+}
+.navbar #show img {
+    display: flex;
 }
 }
