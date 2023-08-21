@@ -1,15 +1,17 @@
 import React from 'react'
-import {Link} from "react-router-dom"
-import {Instagram, WhatsApp, Facebook, Twitter }from "@mui/icons-material"
+import '../styles/Footer.css'
+// import {Link} from "react-router-dom"
+import {Instagram, WhatsApp, Facebook, Twitter } from "@mui/icons-material"
 const Footer = () => {
   return (
     <div className='footer'>
-        <Instagram color='purple' />
-        <WhatsApp />
-        <Twitter />
-        <Facebook />
-        <div className='socialMedia'></div>
-        <p>&copy; 2023 LahcenPitza</p>
+        <div className='socialMedia'>
+          <Instagram />
+          <WhatsApp />
+          <Twitter />
+          <Facebook />
+        </div>
+        <p>&copy; 2023 LahcenPizza</p>
     </div>
   )
 }

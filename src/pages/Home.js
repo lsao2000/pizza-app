@@ -6,9 +6,9 @@ import '../styles/Home.css'
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home" style={{background:`url(${img1})`}} >
             <div 
-                style={{background:`url(${img1})`}} 
+                
                 className="headerContainer"
             >
                 <h1>Lahcen Pizzeria</h1>
