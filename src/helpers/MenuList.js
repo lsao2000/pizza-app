@@ -1,57 +1,58 @@
-import product1 from '../assets/expensive.jpg'
-import product2 from '../assets/makingpizza.jpeg'
-import product3 from '../assets/margherita.jpg'
-import product4 from '../assets/multiplePizzas.jpeg'
-import product5 from '../assets/pedrotechspecial.jpg'
-import product6 from '../assets/pepperoni.jpg'
-import product7 from '../assets/pineapple.jpg'
-import product8 from '../assets/pizza.jpeg'
-import product9 from  '../assets/pizzaLeft.jpg'
+import expensive from '../assets/expensive.jpg'
+import makingpizza from '../assets/makingpizza.jpeg'
+import margherita from '../assets/margherita.jpg'
+import multiplePizzas from '../assets/multiplePizzas.jpeg'
+import pedrotechspecial from '../assets/pedrotechspecial.jpg'
+import pepperoni from '../assets/pepperoni.jpg'
+import pineapple from '../assets/pineapple.jpg'
+import pizza from '../assets/pizza.jpeg'
+import pizzaLeft from  '../assets/pizzaLeft.jpg'
+
 export const Menulist = [
     {
-        name:"product 1",
-        price:20.4,
-        imgProduct: product1
+        nameProduct  : "product 1",
+        priceProduct : 20.4,
+        imgProduct   : expensive
     },
     {
-        name: "product 2",
-        price: 14.3,
-        imgProduct : product2
+        nameProduct  : "product 2",
+        priceProduct : 14.3,
+        imgProduct   : makingpizza
     },
     {
-        name: "product 3",
-        price: 48.5,
-        imgProduct: product3
+        nameProduct  : "product 3",
+        priceProduct : 48.5,
+        imgProduct   : margherita
     },
     {
-        name:"product4",
-        price: 4.5,
-        imgProduct: product4
+        nameProduct  : "product4",
+        priceProduct : 4.5,
+        imgProduct   : multiplePizzas
     },
     {
-        name: "product5",
-        price : 58.4,
-        imgProduct : product5
+        nameProduct  : "product5",
+        priceProduct : 58.4,
+        imgProduct   : pedrotechspecial
     },
     {
-        name : "product6",
-        price : 20.4,
-        imgProduct : product6
+        nameProduct  : "product6",
+        priceProduct : 20.4,
+        imgProduct   : pepperoni
     },
     {
-        name : "product 7 ",
-        price: 29.5,
-        imgProduct: product7
+        nameProduct  : "product 7 ",
+        priceProduct : 29.5,
+        imgProduct   : pineapple
     },
     {
-        name: "product 8",
-        price : 11.5,
-        imgProduct : product8
+        nameProduct  : "product 8",
+        priceProduct : 11.5,
+        imgProduct   : pizza
     },
     {
-        name : "product 9",
-        price : 15.5,
-        imgProduct : product9
+        nameProduct  : "product 9",
+        priceProduct : 15.5,
+        imgProduct   : pizzaLeft
     }
 ]
 
